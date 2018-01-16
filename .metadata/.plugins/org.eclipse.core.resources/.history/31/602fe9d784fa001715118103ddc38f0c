@@ -1,0 +1,18 @@
+package edu.fju.exam;
+
+public class Niner {
+
+	public static void main(String[] args) {
+		for(int i=1;i<10;i++){
+			for(int j=2;j<6;j++){
+				if((j*i)<10){
+					System.out.print(j+"*"+i+"="+" "+(i*j)+"\t");
+				}else{
+					System.out.print(j+"*"+i+"="+(i*j)+"\t");
+				}
+		}
+	}
+
+}
+}
+	
